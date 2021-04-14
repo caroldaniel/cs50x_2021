@@ -48,4 +48,5 @@ int main(void)
 
     // Print number of years
     printf("Years: %i\n", years);
+    return 0
 }
