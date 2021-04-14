@@ -3,9 +3,22 @@
 #include <stdio.h>
 #include <string.h>
 
+/* 
+**  Description 
+**  -----------
+**  The main function prompts the user for two words.
+**  After, it calls for a second function to compute the score of both words.
+**  At last, it returns the winner, according to the scrabble game's score. 
+**
+**  Returns
+**  -------
+**  Prints the winner word. 
+*/
+
 // Points assigned to each letter of the alphabet
 int POINTS[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
+// Prototype
 int compute_score(string word);
 
 int main(void)
@@ -46,7 +59,6 @@ int compute_score(string word)
         if (word[i] >= 'a' && word[i] <= 'z')
         {
             SCORE[i] = POINTS[(int) word[i] - 97];
-
         }
 
         //Check if char's upper case
