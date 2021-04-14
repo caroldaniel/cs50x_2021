@@ -1,5 +1,18 @@
 #include <cs50.h>
 #include <stdio.h>
+  
+/* 
+**  Description 
+**  -----------
+**  Calculates the number of years it takes for a given population to grow a given amount.  
+**  The start and end sizes are given by the user. 
+**  The population grows by 1/3 a year given its births, and shrinks 1/4 in the same period. 
+**
+**  Returns
+**  -------
+**  Prints the number of years taken to grow.
+*/
+
 
 int main(void)
 {
@@ -33,6 +46,6 @@ int main(void)
         years++;
     }
 
-    // TODO: Print number of years
+    // Print number of years
     printf("Years: %i\n", years);
 }
