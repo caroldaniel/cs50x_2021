@@ -1,17 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
 
-/* 
-**  Description 
-**  -----------
-**  Prints a pyramide similar to the one found on the Mario's game's graphics.   
-**  Height of pyramide is defined by the user.
-**
-**  Returns
-**  -------
-**  A graphical representation of the pyramide of the selected height. 
-*/
-
 int main(void)
 {
     // Get positive interger from user

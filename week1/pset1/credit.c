@@ -2,17 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-/* 
-**  Description 
-**  -----------
-**  By prompting a credit card number, the user is warned if the number is, indeed, of a valid card.  
-**  If yes, than the program returns the the card's flag (Master, Visa or Amex).
-**
-**  Returns
-**  -------
-**  Valid or not valid. If valid, specifies which type of card. 
-*/
-
 int main(void)
 {
     //Prompt user about credit card number
